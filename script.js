@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Header scroll effect
+  // ========================================
+  // HEADER SCROLL EFFECT
+  // ========================================
   const header = document.querySelector('.header');
   window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
@@ -9,7 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Mobile menu
+  // ========================================
+  // MOBILE MENU
+  // ========================================
   const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
   const mobileNav = document.querySelector('.mobile-nav');
   const mobileClose = document.querySelector('.mobile-close');
@@ -24,7 +28,9 @@ document.addEventListener('DOMContentLoaded', () => {
   mobileClose.addEventListener('click', toggleMobileMenu);
   mobileLinks.forEach(link => link.addEventListener('click', toggleMobileMenu));
 
-  // Smooth scroll
+  // ========================================
+  // SMOOTH SCROLL
+  // ========================================
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
       e.preventDefault();
@@ -42,10 +48,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Scroll animations
+  // ========================================
+  // SCROLL ANIMATIONS
+  // ========================================
   const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
+    threshold: 0.08,
+    rootMargin: '0px 0px -40px 0px'
   };
 
   const observer = new IntersectionObserver((entries) => {
@@ -61,7 +69,9 @@ document.addEventListener('DOMContentLoaded', () => {
     observer.observe(el);
   });
 
-  // Lightbox
+  // ========================================
+  // LIGHTBOX
+  // ========================================
   const lightbox = document.querySelector('.lightbox');
   const lightboxImg = document.querySelector('.lightbox img');
   const lightboxClose = document.querySelector('.lightbox-close');
@@ -92,7 +102,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // FAQ Accordion
+  // ========================================
+  // FAQ ACCORDION
+  // ========================================
   const faqItems = document.querySelectorAll('.faq-item');
 
   faqItems.forEach(item => {
@@ -116,7 +128,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Contact form
+  // ========================================
+  // CONTACT FORM
+  // ========================================
   const contactForm = document.querySelector('.contact-form');
   contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -139,7 +153,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 1500);
   });
 
-  // Active nav link on scroll
+  // ========================================
+  // ACTIVE NAV LINK ON SCROLL
+  // ========================================
   const sections = document.querySelectorAll('section[id]');
   window.addEventListener('scroll', () => {
     let current = '';
