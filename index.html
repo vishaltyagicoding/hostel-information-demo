@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StayWise - Premium Student Hostel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+        Stay<span>Wise</span>
+      </a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="mobile-menu-btn" aria-label="Open menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav">
+    <button class="mobile-close" aria-label="Close menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+    <a href="#about">About</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#rooms">Rooms</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="container">
+      <div class="hero-content animate-on-scroll">
+        <div class="hero-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          Rated #1 Student Hostel 2024
+        </div>
+        <h1>Affordable Student Accommodation</h1>
+        <p>Safe, Comfortable and Modern Living spaces designed for students, parents, and working professionals. Experience a home away from home.</p>
+        <div class="hero-buttons">
+          <a href="#rooms" class="btn btn-primary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            Book Room
+          </a>
+          <a href="#facilities" class="btn btn-secondary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+            View Facilities
+          </a>
+        </div>
+      </div>
+      <div class="hero-image animate-on-scroll delay-2">
+        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&auto=format&fit=crop&q=80" alt="Modern Hostel Building">
+        <div class="hero-stats">
+          <div class="stat-number">500+</div>
+          <div class="stat-label">Happy Students</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images animate-on-scroll">
+          <div class="about-img-main">
+            <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=600&auto=format&fit=crop&q=80" alt="Students in common area">
+          </div>
+          <div class="about-img-secondary">
+            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&auto=format&fit=crop&q=80" alt="Hostel exterior">
+          </div>
+        </div>
+        <div class="about-content animate-on-scroll delay-2">
+          <h2>About StayWise Hostel</h2>
+          <p>Founded in 2015, StayWise has become the preferred choice for students and young professionals seeking quality accommodation. We believe everyone deserves a safe, comfortable, and inspiring place to live.</p>
+          <p>Our hostels combine modern amenities with a warm community atmosphere, ensuring you focus on what matters most - your studies and career.</p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <div>
+                <h4>Safe & Secure</h4>
+                <p>24/7 security with CCTV coverage</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              </div>
+              <div>
+                <h4>Prime Location</h4>
+                <p>Near major universities & transit</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              </div>
+              <div>
+                <h4>Community Events</h4>
+                <p>Regular networking & social events</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <div>
+                <h4>Top Rated</h4>
+                <p>4.9/5 rating from residents</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facilities -->
+  <section id="facilities" class="section">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>World-Class Facilities</h2>
+        <p>Everything you need for comfortable living, all under one roof.</p>
+      </div>
+      <div class="facilities-grid">
+        <div class="facility-card animate-on-scroll delay-1">
+          <div class="facility-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"></path><path d="M1.42 9a16 16 0 0 1 21.16 0"></path><path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line x1="12" y1="20" x2="12.01" y2="20"></line></svg>
+          </div>
+          <h3>High-Speed WiFi</h3>
+          <p>Gigabit fiber internet with seamless coverage across all rooms and common areas. Perfect for online classes and streaming.</p>
+        </div>
+        <div class="facility-card animate-on-scroll delay-2">
+          <div class="facility-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"></path></svg>
+          </div>
+          <h3>Laundry Service</h3>
+          <p>Modern washing machines and dryers available 24/7. Affordable per-load pricing with detergent included.</p>
+        </div>
+        <div class="facility-card animate-on-scroll delay-3">
+          <div class="facility-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <h3>24x7 Security</h3>
+          <p>Round-the-clock security personnel, biometric entry, and CCTV surveillance ensure your safety at all times.</p>
+        </div>
+        <div class="facility-card animate-on-scroll delay-1">
+          <div class="facility-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
+          </div>
+          <h3>Healthy Food</h3>
+          <p>Nutritious meals prepared in a hygienic kitchen. Multiple meal plans available including vegetarian options.</p>
+        </div>
+        <div class="facility-card animate-on-scroll delay-2">
+          <div class="facility-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"></path><circle cx="7" cy="17" r="2"></circle><circle cx="17" cy="17" r="2"></circle></svg>
+          </div>
+          <h3>Secure Parking</h3>
+          <p>Dedicated parking space for bicycles and two-wheelers with covered shelter and charging points.</p>
+        </div>
+        <div class="facility-card animate-on-scroll delay-3">
+          <div class="facility-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+          </div>
+          <h3>Study Area</h3>
+          <p>Quiet, air-conditioned study rooms with individual desks, power outlets, and library resources.</p>
+        </div>
+        <div class="facility-card animate-on-scroll delay-1">
+          <div class="facility-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          </div>
+          <h3>Power Backup</h3>
+          <p>Full power backup with inverter and generator support. Never miss a deadline due to power cuts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rooms -->
+  <section id="rooms" class="section rooms">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>Room Types</h2>
+        <p>Choose the perfect space that fits your budget and lifestyle.</p>
+      </div>
+      <div class="rooms-grid">
+        <div class="room-card animate-on-scroll delay-1">
+          <div class="room-image">
+            <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&auto=format&fit=crop&q=80" alt="Single Room">
+          </div>
+          <div class="room-content">
+            <h3>Single Sharing</h3>
+            <div class="room-price">$899<span>/month</span></div>
+            <p>Complete privacy with your own space. Ideal for focused students and professionals.</p>
+            <ul class="room-features">
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Single occupancy</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Attached bathroom</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Study desk & chair</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Wardrobe & storage</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary" style="width: 100%;">Enquire Now</a>
+          </div>
+        </div>
+        <div class="room-card animate-on-scroll delay-2">
+          <div class="room-badge">Most Popular</div>
+          <div class="room-image">
+            <img src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=600&auto=format&fit=crop&q=80" alt="Double Room">
+          </div>
+          <div class="room-content">
+            <h3>Double Sharing</h3>
+            <div class="room-price">$599<span>/month</span></div>
+            <p>Share with one roommate. Perfect balance of privacy and companionship.</p>
+            <ul class="room-features">
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Two occupants</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Shared bathroom</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Individual study desks</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Personal wardrobes</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary" style="width: 100%;">Enquire Now</a>
+          </div>
+        </div>
+        <div class="room-card animate-on-scroll delay-3">
+          <div class="room-image">
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&auto=format&fit=crop&q=80" alt="Triple Room">
+          </div>
+          <div class="room-content">
+            <h3>Triple Sharing</h3>
+            <div class="room-price">$449<span>/month</span></div>
+            <p>Budget-friendly option with a vibrant community feel. Great for making friends.</p>
+            <ul class="room-features">
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Three occupants</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Common bathroom</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Shared study area</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Lockers provided</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary" style="width: 100%;">Enquire Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>Photo Gallery</h2>
+        <p>Take a virtual tour of our modern facilities and living spaces.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item animate-on-scroll">
+          <img src="https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&auto=format&fit=crop&q=80" alt="Hostel common room">
+          <div class="gallery-overlay"><div class="gallery-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg></div></div>
+        </div>
+        <div class="gallery-item animate-on-scroll delay-1">
+          <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&auto=format&fit=crop&q=80" alt="Bedroom">
+          <div class="gallery-overlay"><div class="gallery-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg></div></div>
+        </div>
+        <div class="gallery-item animate-on-scroll delay-2">
+          <img src="https://images.unsplash.com/photo-1560185007-cde436f6a4db?w=400&auto=format&fit=crop&q=80" alt="Interior">
+          <div class="gallery-overlay"><div class="gallery-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg></div></div>
+        </div>
+        <div class="gallery-item animate-on-scroll delay-1">
+          <img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=800&auto=format&fit=crop&q=80" alt="Common area">
+          <div class="gallery-overlay"><div class="gallery-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg></div></div>
+        </div>
+        <div class="gallery-item animate-on-scroll delay-2">
+          <img src="https://images.unsplash.com/photo-1552242718-c5360894aecd?w=400&auto=format&fit=crop&q=80" alt="Study room">
+          <div class="gallery-overlay"><div class="gallery-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg></div></div>
+        </div>
+        <div class="gallery-item animate-on-scroll delay-3">
+          <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?w=400&auto=format&fit=crop&q=80" alt="Room detail">
+          <div class="gallery-overlay"><div class="gallery-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg></div></div>
+        </div>
+        <div class="gallery-item animate-on-scroll delay-1">
+          <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=400&auto=format&fit=crop&q=80" alt="Apartment view">
+          <div class="gallery-overlay"><div class="gallery-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg></div></div>
+        </div>
+        <div class="gallery-item animate-on-scroll delay-2">
+          <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=400&auto=format&fit=crop&q=80" alt="Living space">
+          <div class="gallery-overlay"><div class="gallery-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox">
+    <button class="lightbox-close" aria-label="Close lightbox">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+    <img src="" alt="Gallery preview">
+  </div>
+
+  <!-- Pricing -->
+  <section id="pricing" class="section pricing">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>Compare Plans</h2>
+        <p>Find the perfect plan that fits your budget and needs.</p>
+      </div>
+      <div class="pricing-table-wrapper animate-on-scroll">
+        <table class="pricing-table">
+          <thead>
+            <tr>
+              <th>Features</th>
+              <th>Single Room</th>
+              <th class="popular">Double Room</th>
+              <th>Triple Room</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monthly Rent</td>
+              <td class="price-cell">$899</td>
+              <td class="price-cell popular">$599</td>
+              <td class="price-cell">$449</td>
+            </tr>
+            <tr>
+              <td>Room Size</td>
+              <td>180 sq ft</td>
+              <td class="popular">220 sq ft</td>
+              <td>280 sq ft</td>
+            </tr>
+            <tr>
+              <td>Bed Type</td>
+              <td>Single Bed</td>
+              <td class="popular">Twin Beds</td>
+              <td>Triple Beds</td>
+            </tr>
+            <tr>
+              <td>High-Speed WiFi</td>
+              <td class="check">✓</td>
+              <td class="check popular">✓</td>
+              <td class="check">✓</td>
+            </tr>
+            <tr>
+              <td>Laundry Access</td>
+              <td class="check">✓</td>
+              <td class="check popular">✓</td>
+              <td class="check">✓</td>
+            </tr>
+            <tr>
+              <td>Meals Included</td>
+              <td class="check">✓</td>
+              <td class="check popular">✓</td>
+              <td class="check">✓</td>
+            </tr>
+            <tr>
+              <td>24/7 Security</td>
+              <td class="check">✓</td>
+              <td class="check popular">✓</td>
+              <td class="check">✓</td>
+            </tr>
+            <tr>
+              <td>Study Area</td>
+              <td class="check">✓</td>
+              <td class="check popular">✓</td>
+              <td class="check">✓</td>
+            </tr>
+            <tr>
+              <td>Parking</td>
+              <td class="check">✓</td>
+              <td class="check popular">✓</td>
+              <td class="check">✓</td>
+            </tr>
+            <tr>
+              <td>Attached Bathroom</td>
+              <td class="check">✓</td>
+              <td class="cross popular">✗</td>
+              <td class="cross">✗</td>
+            </tr>
+            <tr>
+              <td>AC Room</td>
+              <td class="check">✓</td>
+              <td class="check popular">✓</td>
+              <td class="cross">✗</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><a href="#contact" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.875rem;">Choose</a></td>
+              <td class="popular"><a href="#contact" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.875rem;">Choose</a></td>
+              <td><a href="#contact" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.875rem;">Choose</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>Frequently Asked Questions</h2>
+        <p>Got questions? We've got answers.</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item animate-on-scroll delay-1">
+          <button class="faq-question">
+            What is the admission process for new students?
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Simply fill out the contact form or call us directly. You'll need to provide a valid student ID, address proof, and a security deposit equivalent to one month's rent. We offer both online and offline registration.</div>
+          </div>
+        </div>
+        <div class="faq-item animate-on-scroll delay-2">
+          <button class="faq-question">
+            Is there a curfew or timing restriction?
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">We have a flexible entry time until 11 PM for safety reasons. However, we provide 24/7 biometric access for residents, so you can enter anytime. Late entries are logged for security purposes only.</div>
+          </div>
+        </div>
+        <div class="faq-item animate-on-scroll delay-3">
+          <button class="faq-question">
+            What does the meal plan include?
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Our meal plan includes breakfast, lunch, and dinner with both vegetarian and non-vegetarian options. We also accommodate special dietary requirements with prior notice. Weekend meals include special menus.</div>
+          </div>
+        </div>
+        <div class="faq-item animate-on-scroll delay-1">
+          <button class="faq-question">
+            Can parents visit their children?
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Absolutely! Parents are welcome to visit during visiting hours (9 AM - 8 PM). We also have a dedicated guest waiting area. For overnight stays by family members, prior intimation and nominal charges apply.</div>
+          </div>
+        </div>
+        <div class="faq-item animate-on-scroll delay-2">
+          <button class="faq-question">
+            What is the cancellation and refund policy?
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">We require a 30-day notice period for vacating. Security deposit is fully refundable if there are no damages. Rent is calculated on a pro-rata basis for partial months. Please refer to your agreement for detailed terms.</div>
+          </div>
+        </div>
+        <div class="faq-item animate-on-scroll delay-3">
+          <button class="faq-question">
+            Are working professionals allowed?
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Yes, we welcome working professionals and interns. We offer flexible lease terms starting from 3 months. Many of our residents are young professionals working in nearby IT parks and business districts.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <h2>Get in Touch</h2>
+        <p>Have questions? Reach out to us and we'll respond within 24 hours.</p>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form animate-on-scroll delay-1">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell us about your requirements..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            Send Message
+          </button>
+        </form>
+        <div class="contact-info animate-on-scroll delay-2">
+          <div class="map-placeholder">
+            <div class="map-pin">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <p style="position: relative; z-index: 1; font-weight: 600;">123 University Road, Knowledge Park<br>Near City Center, Metro Station</p>
+          </div>
+          <div class="info-cards">
+            <div class="info-card">
+              <div class="info-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <p>+1 (555) 987-6543</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p>hello@staywise.hostel</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              </div>
+              <div>
+                <h4>Office Hours</h4>
+                <p>Mon - Sat: 9AM - 7PM</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+              </div>
+              <div>
+                <h4>Visit Us</h4>
+                <p>Walk-ins welcome!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            Stay<span>Wise</span>
+          </a>
+          <p>Premium student accommodation that feels like home. Safe, modern, and affordable living spaces for the next generation.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#facilities">Facilities</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 StayWise Hostel. All rights reserved.</p>
+        <p>Designed with care for students everywhere.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
